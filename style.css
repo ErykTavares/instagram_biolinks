@@ -17,6 +17,15 @@ a, a:hover{
 body{
     /* background-color: #1B2029; */
     background-color: #f8f8ff;
+    height: 100vh;
+    width: 100%;
+}
+
+
+.container_fluid{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
 }
 
 .content{
@@ -38,7 +47,7 @@ body{
 .profile h1{
     font-size:3.5rem;
     font-weight: bold;
-    color: #3219a1;
+    color: #780206;
     padding-top: 20px;
     padding: 20px;
     padding-bottom: 0px;
@@ -49,7 +58,7 @@ body{
 .profile h4{
     font-size: 1.2rem;
     font-weight: bold;
-    color: #3219a1;
+    color: #780206;
     margin-bottom: 20px;
     letter-spacing: -1px;
     text-shadow: -1px -1px 1px rgba(255, 255, 255, .1), 1px 1px 1px rgba(0, 0, 0, .5), 2px 2px 2px rgba(206, 89,55,0);
@@ -74,7 +83,7 @@ body{
     margin: 20px;
     width: 500px;
     height: 70px;
-    background-image: linear-gradient(50deg, #271061, #4700ff);
+    background-image: linear-gradient(50deg, #780206, #c00107);
     border-radius: 8px;
     box-shadow:5px 5px 15px -3px black;
     
@@ -110,6 +119,7 @@ footer{
     height: 80px;
     text-align: center;
     padding: 20px;
+    margin-top:auto;
 }
 
 
